@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mark 12-Quiz</title>
+<link  href="triangles.css" rel="stylesheet"  />
+</head>
+<body>
+    <header>
+          <a id="fun" href="fun-triangles.html">Is Triangle?</a>
+       <a id="quiz" href="quiz.html">Quiz</a>
+      <a id="hyp" href="hypotenuse.html">Hypotenuse</a>
+     <a id="area" href="area.html">Area</a>
+     </header>
+     <form class="quiz-form">
+         <h1>Triangle Quiz</h1>
+         <h2>Length of Hypotenuse=sqrt(a^2+b^2)</h2>
+      
+         <div class="question-container">
+            <p>What is the third angle of a triangle where angle1=45 degree
+              and angle2=45degree</p>
+             <input type="radio" name="question1" value="45"</input>
+            <label for="first">45 degree</label>
+             
+          <input type="radio" name="question1" value="60"</input>
+            <label for="second">60 degree</label>
+           
+         <input type="radio" name="question1" value="90"</input>
+            <label for="third">90degree</label>        
+    </div>
+  <div class="question-container">
+            <p>If a triangle has an angle of 90 degrees,what is it called</p>
+             <input type="radio" name="question2" value="acute"</input>
+            <label for="first1">acute</label>
+             
+          <input type="radio"  name="question2" value="obtuse"</input>
+            <label for="second2">obtuse</label>
+           
+         <input type="radio" name="question2" value="right angled"</input>
+            <label for="third3">right angled</label>        
+    </div>
+    
+    </form>
+  <button id="check">Submit form</button>
+ <div id="output"></div>
+   <script src="quizjs.js" type="text/javascript"></script>
+</body>
+</html>
