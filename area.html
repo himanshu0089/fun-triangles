@@ -18,10 +18,10 @@
          <h2>Area of a triangle=1/2(Base*Height)</h2>
       
          <label for="Base">base</label>
-         <input type="number" id="base">
+         <input type="number" min="0" oninput="validity.valid||(value='');" id="base">
           
          <label for="height">height</label>
-         <input type="number" id="height">
+         <input type="number" min="0" oninput="validity.valid||(value='');" id="height">
       <button id="check">Check Area</button>
  <p id="output-box"></p>
 <script src="areajs.js" type="text/javascript"></script>
