@@ -5,7 +5,7 @@ var output=document.querySelector("#output-box");
 var hypotenuse;
 check.addEventListener("click", function findHypotenuse()
 {
-       if(base==0 || height==0){
+       if(base.value==0 || height.value==0){
               return 0 }
        else{
        hypotenuse=(base.value*base.value+height.value*height.value);
